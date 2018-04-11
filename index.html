@@ -1,0 +1,30 @@
+<head>
+	<title>zType Demo</title>
+	<style>
+		* { color:#fff; text-decoration: none;}
+		body {
+  			background-color: #ccc;
+  			text-align: center;
+  			color: #fff;
+  			padding-top: 10em;
+		}
+		.ztype-symbol {
+			position: relative;
+			top: -3px;
+			font-weight: bold;
+		}
+	</style>
+	<script type="text/javascript" src="zType.js"></script>
+	<script type="text/javascript">    
+		window.onload = function() {
+			new zType();
+    	}
+    </script>
+</head>
+<body>
+
+	<h1>
+	  <span class="typewrite" ztype-data='["Hi, I am Mark.", "And this is zType."]'></span>
+	</h1>
+
+</body>
