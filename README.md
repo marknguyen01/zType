@@ -1,0 +1,2 @@
+# zType
+Lightweight typing effect
